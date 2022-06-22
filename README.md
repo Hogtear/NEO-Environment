@@ -5,4 +5,4 @@ Este projeto está sendo refeito do zero por mim, utilizando tecnologias e uma o
 
 (Receberá atualizações futuras)
 
-![Screenshot](assets/logo-git/logo.png)
+![Screenshot](assets/img/logo-git/logo.png)
