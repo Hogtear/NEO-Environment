@@ -1,0 +1,203 @@
+/*==================== SOBRE ====================*/
+.about__container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*==================== MAPA ====================*/
+.map__data{
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: var(--first-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.map{
+    align-items: center;
+    justify-content: center;
+    width: 35rem;
+    height: 20rem;
+    background-color: #000000;
+    position: relative;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+/*==================== INPUT ====================*/
+.insert__latlong{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    position: relative;
+    padding: 1rem;
+}
+
+.insert__text-latlong{
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    justify-content: space-evenly;
+    border: none;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #000000;
+}
+
+.button--map{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.coord{
+    background-color: var(--first-color);
+    border-radius: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+    position: relative;
+    padding: 1rem;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+/*==================== MEDIA QUERIES ====================*/
+/* para telas menores */
+@media screen and (min-width: 350px){
+    .home__content{
+        display: grid;
+        padding-top: 1rem;
+    }
+
+    .map__data {
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        padding: 1rem;
+        background-color: var(--first-color);
+        display: list-item;
+        grid-gap: 1rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    }
+
+    .insert__text-latlong{
+        border: 1px solid black;
+        border-radius: 0.3rem;
+        justify-content: space-evenly;
+        border: none;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        font-size: 0.8rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        color: #000000;
+    }
+    
+
+    .map{
+        width: 100%;
+        height: 22rem;
+        background-color: #000000;
+        position: relative;
+        border-radius: 0.5rem;
+        border: none;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    }
+
+    
+    .footer__container{
+        row-gap: 0.5rem;
+    }
+}
+/* para telas médias */
+@media screen and (min-width: 568px){
+
+    .map{
+        align-items: center;
+        justify-content: center;
+        width: 35rem;
+        height: 20rem;
+        background-color: #000000;
+        position: relative;
+        border-radius: 0.5rem;
+        border: none;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    }
+
+    .map__data {
+        justify-content: center;
+        padding: 1rem;
+        background-color: var(--first-color);
+        display: list-item;
+        grid-gap: 1rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    }    
+}
+
+/* para telas um pouco maiores */
+@media screen and (min-width: 768px){
+
+    .map{
+        align-items: center;
+        justify-content: center;
+        width: 35rem;
+        height: 20rem;
+        background-color: #000000;
+        position: relative;
+        border-radius: 0.5rem;
+        border: none;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    }
+
+    .insert__latlong{
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        position: relative;
+        padding: 1rem;
+    }
+
+    .insert__text-latlong{
+        border: 1px solid black;
+        border-radius: 0.3rem;
+        justify-content: space-evenly;
+        border: none;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        width: 8.5rem;
+        font-size: 0.8rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        color: #000000;
+    }
+    
+
+    .map__data {
+        justify-content: center;
+        padding: 1rem;
+        background-color: var(--first-color);
+        display: grid;
+        grid-gap: 1rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 25%);
+    }    
+}

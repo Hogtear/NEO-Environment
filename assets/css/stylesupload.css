@@ -1,0 +1,104 @@
+.upload__data{
+    margin:0px;
+    height:100vh;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 6rem;
+}
+
+.upload__title{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.file__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.file__title{
+    color: #fff;
+}
+
+.form-input__label-text{
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #fff;
+}
+
+.button__file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: #fff;
+}
+
+.form__bg{
+    width: 430px;
+    background: var(--first-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 25%);
+}
+
+.form-input{
+    height: 167px;
+    display: flex;
+    cursor: pointer;
+    margin: 30px 0;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    border-radius: 5px;
+    border: 2px dashed #fff;
+}
+
+@media screen and (max-width: 350px){
+    .form__bg{
+        width: 215px;
+        background: var(--first-color);
+        border-radius: 1rem;
+        padding: 1rem;
+        box-shadow: 7px 7px 12px rgba(0,0,0,0.05);
+    }
+
+    .form-input{
+        height: 120px;
+        display: flex;
+        cursor: pointer;
+        margin: 10px 0;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        border-radius: 5px;
+        border: 2px dashed #fff;
+    }
+
+    .file__title{
+        font-size: 0.7rem;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        color: #fff;
+    }
+
+    .button--white{
+        width: 100%;
+        border-radius: 5px;
+        border: 2px solid #fff;
+        background: #fff;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+    }
+
+    .footer__container {
+        row-gap: 0.1rem; 
+    }
+}

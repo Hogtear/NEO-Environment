@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--==================== ÍCONE ====================-->
+        <link rel="icon" href="assets/img/logos/contato.svg">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/stylescontato.css">
+
+        <!--==================== EMOJIS ====================-->
+        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+
+        <title>Contato</title>
+    </head>
+    <body>
+        <!--==================== CABEÇALHO ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">ENVIRONMENT</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i> Início
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="contato.html" class="nav__link active-link">
+                                <i class="uil uil-message nav__icon"></i> Contato
+                            </a>
+                        </li>
+                        <div class="nav__item">
+                            <a href="login.html" class="nav__link">
+                                <i class="uil uil-user-square nav__icon"></i> Perfil
+                            </a>
+                        </div>
+
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+
+                    <!-- Botão do Modo escuro -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== CLASSE MAIN ====================-->
+        <main class="main">
+            <!--==================== INÍCIO ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                            <a href="" target="_blank" class="home__social-icon">
+                                <i class="uil uil-youtube"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <img src="assets/img/logos/enviro_logo.png">
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">ENVIRONMENT</h1>
+                            <h3 class="home__subtitle">Cálculo de Danos Florestais</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTATO ====================-->
+            <section class="contact section" id="contact">
+            <h2 class="section__title">Contato</h2>
+                <span class="section__subtitle">Use o formulário abaixo<br>para falar conosco</span>
+        
+                    <div class="contact__container container grid">
+                        <div>
+        
+                            <div class="contact__information">
+                                <i class="uil uil-envelope contact__icon"></i>
+        
+                                <div>
+                                    <h3 class="contact__title">Email</h3>
+                                    <span class="contact__subtitle">Enviro.bio@gmail.com</span>
+                                </div>
+                            </div>
+        
+                                <div class="contact__information">
+                                    <i class="uil uil-map-marker contact__icon"></i>
+        
+                                    <div>
+                                        <h3 class="contact__title">Localização</h3>
+                                        <span class="contact__subtitle">Campinas - Brasil</span>
+                                    </div>
+                                </div>
+                        </div>
+        
+                            <form action="https://formsubmit.co/paulo.david.archanjo@email.com" method="POST" class="contact__from grid">
+                                <div class="contact__inputs grid">
+                                    <div class="contact__content">
+                                        <label for="" class="contact__label">Nome</label>
+                                        <input type="text" name="name" class="contact__input" required>
+                                    </div>
+                                    <div class="contact__content">
+                                        <label for="" class="contact__label">Email</label>
+                                        <input type="email" name="email" class="contact__input" required>
+                                    </div>
+                                </div>
+                                <div class="contact__content">
+                                    <label for="" class="contact__label">Mensagem</label>
+                                    <textarea type="text" name="" id="" cols="0" rows="7" class="contact__input" required></textarea>
+                                </div>
+        
+                                <div>
+                                    <button type="submit" class="button button--flex">Enviar<i class="uil uil-message button__icon"></i></button>
+                                </div>
+                            </form>
+                    </div>
+            </section>
+        </main>
+           
+
+        <!--==================== RODAPÉ ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">ENVIRO.</h1>
+                        <span class="footer__subtitle">Cálculo de Danos Florestais</span>
+                    </div>
+
+                    <ul class="footer__links"  style="visibility: hidden;">
+                        <li>
+                            <a href="#services" class="footer__link">Utilidades</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfólio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contato</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials ">
+                        <a href="https://twitter.com" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com" target="_blank" class="footer__social">
+                            <i class="uil uil-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169;ENVIRONMENT. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

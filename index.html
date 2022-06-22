@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== ÍCONE ====================-->
+        <link rel="icon" href="assets/img/logos/enviro_logo.ico">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>ENVIRONMENT</title>
+    </head>
+    <body>
+        
+        <!--==================== CABEÇALHO ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">ENVIRONMENT</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Início
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> Sobre
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#utilities" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Utilidades
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="contato.html" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contato
+                            </a>
+                        </li>
+                        <div class="nav__item">
+                            <a href="login.html" class="nav__link">
+                                <i class="uil uil-user-square nav__icon"></i> Perfil
+                            </a>
+                        </div>
+
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+
+                    <!-- Botão do Modo escuro -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== CLASSE MAIN ====================-->
+        <main class="main">
+            <!--==================== INÍCIO ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content">
+                        <div class="home__social">
+                        </div>
+
+                        <div class="home__img">
+                            <img src="assets/img/logos/enviro_logo.png">
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">ENVIRONMENT</h1>
+                            <h3 class="home__subtitle">Cálculo de Danos Florestais</h3>
+                            <p class="home__description">Sendo esta uma alternativa para as instituições ambientais,
+                                nós somos a ENVIRONMENT</p>
+                            <a href="#portfolio" class="button button--flex">
+                            Começar agora<i class="uil uil-arrow-circle-down button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== SOBRE ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">Sobre</h2>
+                <span class="section__subtitle">Descrição do Projeto</span>
+
+                <div class="about__container container">
+
+                    <div class="about__data">
+                        <p class="about__description">
+                            Uma <strong>tecnologia</strong> que busca um meio de transformação social.<br><br>Nascemos na
+					        Escola Salesiana São José, mais especificamente no <abbr title="Centro Profissional Dom Bosco">CPDB</abbr>, na cidade de Campinas-SP.
+					        Como projeto de TCC, decidimos otimizar um processo tão manual e recorrente para os profissionais da área,
+                            o cálculo de danos florestais causados pelas <strong>queimadas</strong>. Tendo este problema em vista, nós utilizamos os 
+                            conceitos que aprendemos durante ou por fora do curso para desenvolver a solução mais cabível. Após um 
+                            período de muito estudo e dedicação, chegamos a tão esperada <strong>resposta</strong>.<br><br>
+
+                            Logo abaixo, segue alguns <strong>links</strong> para acessar as documentações com as informações técnicas e a revista do projeto (com duas versões, em light mode e dark mode), que busca apresentar
+                            as ideias e as soluções utilizadas, para um público mais amplo. 
+                        </p>
+
+                            <div class="about__button">
+                                <a href="assets/pdf/Relatório Final do Projeto.pdf" target="blank" class="button--white">
+                                    Relatório Original<i class="uil uil-download-alt button__icon"></i>
+                                </a>
+                                <a href="assets/pdf/ENVIRONMENT 1.4.pdf" target="blank" class="button--about button--flex">
+                                    Revista (Light) <i class="uil uil-sun button__icon"></i>
+                                </a>
+                                <a href="assets/pdf/ENVIRONMENT 1.4 (Noturno).pdf" target="blank" class="button--about button--flex">
+                                    Revista (Dark) <i class="uil uil-moon button__icon"></i>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== FLORESTAS/IMAGENS ====================-->
+            <section class="fires section" id="services">
+                <h2 class="section__title">Incêndios</h2>
+                <span class="section__subtitle">Conheça os maiores incêndios da História</span>
+
+                <div class="fires__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== INCÊNDIO 1 ====================-->
+                        <div class="fires__content grid swiper-slide">
+                            <img src="assets/img/incendios/brasil2020.jpg" alt="" class="fires__img">
+
+                            <div class="fires__data">
+                                <h3 class="fires__data"><strong>Amazônia e Pantanal</strong></h3>
+                                <span class="fires__subtitle">Brasil - 2020</span>
+                                <p class="fires__description"><br>Uma série de incêndios florestais estiveram afetando o Brasil no ano de 2020,
+                                    com 44,013 focos de queimadas registradas entre janeiro e agosto na Amazônia e no Pantanal. Dentro da Amazônia,
+                                    foram detectados 6,315 focos de incêndio no mesmo período.
+                                    </p>
+                            </div>
+                        </div>
+
+                        <!--==================== INCÊNDIO 2 ====================-->
+                        <div class="fires__content grid swiper-slide">
+                            <img src="assets/img/incendios/portugal2017.jpg" alt="" class="fires__img">
+                            
+                            <div class="fires__data">
+                                <h3 class="fires__data">Pedrógão Grande</h3>
+                                <span class="fires__subtitle">Portugal - 2017</span>
+                                <p class="fires__description"><br>Em 17 de junho um enorme incêndio começou no município de Pedrógão Grande, espalhando-se pelo centro do país.
+                                    O evento tem sido descrito como “a maior tragédia florestal dos últimos anos”, causando a morte de mais de 60 pessoas e deixando muitos feridos.                                                                  
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!--==================== INCÊNDIO 3 ====================-->
+                        <div class="fires__content grid swiper-slide">
+                            <img src="assets/img/incendios/canada2016.jpg" alt="" class="fires__img">
+                            
+                            <div class="fires__data">
+                                <h3 class="fires__data">Alberta</h3>
+                                <span class="fires__subtitle">Canadá - 2016</span>
+                                <p class="fires__description"><br>Com início em 1° de maio em Fort McMurray, na cidade de Alberta, o incêndio espalhou-se pela comunidade e levou à maior evacuação por incêndio florestal na história da região.
+                                    Mais de 88 mil pessoas foram forçadas a fugir de suas casas. A situação só foi controlada em 5 de julho.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!--==================== INCÊNDIO 4 ====================-->
+                        <div class="fires__content grid swiper-slide">
+                            <img src="assets/img/incendios/chile2014.jpg" alt="" class="fires__img">
+                            
+                            <div class="fires__data">
+                                <h3 class="fires__data">Valparaíso</h3>
+                                <span class="fires__subtitle">Chile - 2014</span>
+                                <p class="fires__description"><br>O grande incêndio de Valparaíso começou nas montanhas
+                                    da região em 12 de abril e destruiu 2.500 casas, deixando mais de 11 mil desabrigados.
+                                    Especula-se que o fogo tenha começado por causa de pássaros que colidiram com um cabo elétrico de transmissão.                                    
+                                    </p>
+                            </div>
+                        </div>
+
+                        <!--==================== INCÊNDIO 5 ====================-->
+                        <div class="fires__content grid swiper-slide">
+                            <img src="assets/img/incendios/bolivia2010.jpg" alt="" class="fires__img">
+
+                            <div class="fires__data">
+                                <h3 class="fires__data">Bolívia</h3>
+                                <span class="fires__subtitle">2010</span>
+                                <p class="fires__description"> <br>Mais de 25 mil incêndios individuais ao longo de 15 mil
+                                    quilômetros quadrados levaram o país a declarar estado de emergência geral. Um dos principais
+                                    culpados foi o clima seco, que propiciou o alastrar do fogo.</p>
+                            </div>
+                        </div>
+
+                        <!--==================== INCÊNDIO 6 ====================-->
+                        <div class="fires__content grid swiper-slide">
+                            <img src="assets/img/incendios/china1987.jpg" alt="" class="fires__img">
+
+                            <div class="fires__data">
+                                <h3 class="fires__data">Incêndio do Dragão Negro</h3>
+                                <span class="fires__subtitle">China - 1987</span>
+                                <p class="fires__description"><br>Nomeado de “Incêndio do Dragão Negro”, levou à morte de 190 pessoas
+                                    e deixou muitos desabrigados e feridos.
+                                    As chamas também destruíram cerca de 18 milhões de acres de floresta, incluindo reservas nacionais.
+                                    </p>
+                            </div>
+                        </div>
+
+                        <!--==================== INCÊNDIO 7 ====================-->
+                        <div class="fires__content grid swiper-slide">
+                            <img src="assets/img/incendios/landesfranca1949.jpg" alt="" class="fires__img">
+
+                            <div class="fires__data">
+                                <h3 class="fires__data">Incêndio de Landes</h3>
+                                <span class="fires__subtitle">França - 1949</span>
+                                <p class="fires__description"><br>Entre 19 e 25 de agosto, a floresta de Landes na França passou por um incêndio que queimou 500 quilômetros quadrados de terra e matou 82 pessoas.
+                                    Considerado o incêndio florestal mais mortal da Europa moderna, as chamas destruíram completamente municípios como Cestas, Saucats, Marcheprime e Mios.                                    
+                                    </p>
+                            </div>
+                        </div>
+
+                        <!--==================== INCÊNDIO 8 ====================-->
+                        <div class="fires__content grid swiper-slide">
+                            <img src="assets/img/incendios/wisconsin1871.jpg" alt="" class="fires__img">
+
+                            <div class="fires__data">
+                                <h3 class="fires__data">Incêndio de Peshtigo</h3>
+                                <span class="fires__subtitle">Wisconsin, Estados Unidos - 1871</span>
+                                <p class="fires__description"><br>A seca prolongada e altas temperaturas no meio-oeste criaram condições que levaram ao "Incêndio de Peshtigo".
+                                    Cerca de 2.500 pessoas foram mortas e 15 mil quilômetros quadrados de terra foram queimados,
+                                    tornando este o maior e mais mortal incêndio da história dos Estados Unidos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                        <!-- Adicionar setas -->
+                        <div class="swiper-button-next">
+                            <i class="uil uil-angle-right-b swiper-fires-icon"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="uil uil-angle-left-b swiper-fires-icon"></i>
+                        </div>
+
+
+                        <!-- Adicionar Paginação -->
+                        <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== UTILIDADES ====================-->
+            <section class="services section" id="utilities">
+                <h2 class="section__title">Utilidades</h2>
+                <span class="section__subtitle">O que nosso site oferece</span>
+
+                <div class="services__container container grid">
+                    <!--==================== UTILIDADE 1 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-image-upload services__icon"></i>
+                            <h3 class="services__title">Upload <br>de imagem</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            Veja mais
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Upload <br>de imagem</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <div class="cards__images">
+                                        <img class="img__cards" src="assets/img/cards/upload.png">
+                                    </div>
+                                    <p class="fires__scroll-y">
+                                        Na sessão "Upload de imagem", o usuário poderá carregar uma imagem que deseja
+                                        realizar o cálculo.<br><br>
+
+                                        <strong>Como utilizar?</strong><br><br>
+                                        Ao clicar no botão “Escolha um arquivo”, será aberto o explorador de 
+                                        arquivos do sistema operacional do usuário, onde o mesmo poderá selecionar uma imagem, podendo-a ser 
+                                        com extensões .jpg, .jpeg e .png.<br><br>
+
+                                        Após a escolha, o sistema irá carregar a imagem na tela, e o usuário poderá prosseguir,
+                                        clicando no botão "Calcular".
+                                    </p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== UTILIDADE 2 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-map-marker services__icon"></i>
+                            <h3 class="services__title">Procure<br>no mapa</h3>
+                        </div>
+                        
+                        <span class="button button--flex button--small button--link services__button">
+                            Veja mais
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Procure<br>no mapa</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <div class="cards__images">
+                                        <img class="img__cards" src="assets/img/cards/mapa.png">
+                                    </div>
+                                    <p class="fires__scroll-y">
+                                        Na sessão "Procure no mapa", o usuário terá acesso a um mapa interativo,
+                                        onde o mesmo poderá escolher uma localização específica, e o sistema irá realizar o cálculo. 
+                                        <br><br>
+
+                                        <strong>Como utilizar?</strong><br><br>
+                                        O usuário poderá realizar o cálculo de duas formas: pelo <strong>marcador</strong> do mapa, ou declarando
+                                        a <strong>latitude</strong> e <strong>longitude</strong>.<br><br>
+
+                                        Utilizando o <strong>marcador</strong> do mapa, o usuário terá liberdade de escolher alguma localização,
+                                        e o sistema irá realizar o cálculo.<br><br>
+
+                                        Utilizando a <strong>latitude</strong> e <strong>longitude</strong>, o usuário caso tenha as coordenadas salvas, é possível
+                                        inseri-las no campo, e o sistema irá realizar o cálculo.
+                                    </p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <!--==================== UTILIDADE 3 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-clipboard-notes services__icon"></i>
+                            <h3 class="services__title">Resultados<br>esperados</h3>
+                        </div>
+                        
+                        <span class="button button--flex button--small button--link services__button">
+                            Veja mais
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Resultados esperados</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <div class="cards__images">
+                                        <img class="img__cards" src="assets/img/cards/results.png">
+                                    </div>
+                                    <p class="fires__scroll-y results">
+                                        Após o cálculo, o usuário poderá visualizar o resultado da operação, e também poderá salvar o resultado no seu ambiente de trabalho, juntamente com os cálculos feitos.<br><br>
+                                        Vale ressaltar que o resultado vale para as duas opções de cálculo presentes no site, o que significa que o resultado será o mesmo. 
+
+                                    </p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== LAYOUT DAS OPÇÕES ====================-->
+            <section class="options section" id="portfolio">
+                <div class="options__bg">
+
+                    <div class="options__container container">
+                        <div class="options__data">
+                            <h1 class="options__title">PRONTO PARA COMEÇAR?</h2>
+                            <p class="options__description">Utilize nossas ferramentas para procurar no mapa <br> ou fazer upload de suas próprias fotos.</p>
+                            
+                            <div class="buttons__begin">
+                                <a href="upload.html" class="button button__adjust button--white">
+                                    Upload de Imagem
+                                    <i class="uil uil-image-upload project__icon button__icon"></i>
+                                </a>
+                                <a href="mapa.html" class="button button__adjust button--white">
+                                    Procure no Mapa
+                                    <i class="uil uil-map-marker project__icon button__icon"></i>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== DESENVOLVEDORES ====================-->
+            <section class="developers__section">
+                <h2 class="section__title">Quem somos nós</h2>
+                <span class="section__subtitle">Os desenvolvedores do Projeto ENVIRO</span>
+                
+                <div class="developers__container container">
+                <!---==================== DESENVOLVEDOR 1====================-->
+                <div class="developers__content">
+                    <div class="developers__content-image">
+                        <img src="assets/img/devs/dev1.jpg" alt="" class="developers__img">
+                        <h3 class="developers__content-title">Gustavo Banaco</h3>
+                    </div>
+
+                    <div class="developers__modal">
+                        <div class="developers__modal-content">
+                            <div class="developers__profile">
+                                <div class="developers__modal-image">
+                                    <img src="assets/img/devs/dev1.jpg" alt="" class="developers__modal-img">
+                                </div>
+                                <div class="developers__titles">
+                                    <h4 class="developers__modal-title">Gustavo Banaco</h4>
+                                    <p class="developers__content-subtitle">
+                                        "O Pontepretano"
+                                    </p>
+
+                                    <div class="devs__socials">
+                                        <a href="https://www.linkedin.com" target="_blank" class="devs__styles">
+                                            <i class="uil uil-linkedin"></i>
+                                        </a>
+                
+                                        <a href="https://www.instagram.com" target="_blank" class="devs__styles">
+                                            <i class="uil uil-instagram"></i>
+                                        </a>
+                
+                                        <a href="https://github.com" target="_blank" class="devs__styles">
+                                            <i class="uil uil-github"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <i class="uil uil-times services__modal-close"></i>
+                                Fã de tecnologia e inteligência artificial, Gustavo Banaco é um <br>dos desenvolvedores do Projeto ENVIRO,
+                                sendo responsável pelos<br>algoritmos de binarização e a conversão de pixels em m². <br><br>
+                                Atualmente está querendo cursar Ciência da Computação.
+                            <p class="developers__content-description">
+                                <span>
+                                    
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!---==================== DESENVOLVEDOR 2====================-->
+                <div class="developers__content">
+                    <div class="developers__content-image">
+                        <img src="assets/img/devs/dev2.jpg" alt="" class="developers__img">
+                        <h3 class="developers__content-title">Paulo Archanjo</h3>
+                    </div>
+
+                    <div class="developers__modal">
+                        <div class="developers__modal-content">
+                            <div class="developers__profile">
+                                <div class="developers__modal-image">
+                                    <img src="assets/img/devs/dev2.jpg" alt="" class="developers__modal-img">
+                                </div>
+                                <div class="developers__titles">
+                                    <h4 class="developers__modal-title">Paulo Archanjo</h4>
+                                    <p class="developers__content-subtitle">
+                                        "O Criativo"
+                                    </p>
+
+                                    <div class="devs__socials">
+                                        <a href="https://www.linkedin.com/in/pauloarchanjo/" target="_blank" class="devs__styles">
+                                            <i class="uil uil-linkedin"></i>
+                                        </a>
+                
+                                        <a href="https://www.instagram.com/pauloarchanjo/" target="_blank" class="devs__styles">
+                                            <i class="uil uil-instagram"></i>
+                                        </a>
+                
+                                        <a href="https://github.com/Hogtear" target="_blank" class="devs__styles">
+                                            <i class="uil uil-github"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            
+
+                            <p class="developers__content-description">
+                                <span>
+                                    Grande entusiasta de tecnologia e apaixonado por desenvolvimento de software,<br> Paulo Archanjo é um dos desenvolvedores do Projeto ENVIRO, 
+                                    tendo grande importância <br> no desenvolvimento do sistema. Descrito pelo grupo como "A Parte Criativa", 
+                                    foi o <br>responsável por quase todas as ideias que foram implementadas no projeto. <br><br>
+                                    Atualmente está querendo cursar Engenharia de Software.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!---==================== DESENVOLVEDOR 3====================-->
+                <div class="developers__content">
+                    <div class="developers__content-image">
+                        <img src="assets/img/devs/dev3.jpg" alt="" class="developers__img">
+                        <h3 class="developers__content-title">Vitor Santos</h3>
+                    </div>
+
+                    <div class="developers__modal">
+                        <div class="developers__modal-content">
+                            <div class="developers__profile">
+                                <div class="developers__modal-image">
+                                    <img src="assets/img/devs/dev3.jpg" alt="" class="developers__modal-img">
+                                </div>
+                                <div class="developers__titles">
+                                    <h4 class="developers__modal-title">Vitor Santos</h4>
+                                    <p class="developers__content-subtitle">
+                                        "O Nerd"
+                                    </p>
+
+                                    <div class="devs__socials">
+                                        <a href="https://www.linkedin.com" target="_blank" class="devs__styles">
+                                            <i class="uil uil-linkedin"></i>
+                                        </a>
+                
+                                        <a href="https://www.instagram.com" target="_blank" class="devs__styles">
+                                            <i class="uil uil-instagram"></i>
+                                        </a>
+                
+                                        <a href="https://github.com" target="_blank" class="devs__styles">
+                                            <i class="uil uil-github"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <p class="developers__content-description">
+                                <span>
+                                Apaixonado por tecnologia e os desafios que proporciona, Vitor Santos <br> é um dos desenvolvedores do Projeto ENVIRO, sendo crucial <br>
+                                no desenvolvimento backend do sistema. <br><br> Atualmente, está cursando Análise e Desenvolvimento de Sistemas.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            </section>
+
+            <!--==================== RODAPÉ ====================-->
+            <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">ENVIRONMENT</h1>
+                        <span class="footer__subtitle">Cálculo de Danos Florestais</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#about" class="footer__link">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Utilidades</a>
+                        </li>
+                        <li>
+                            <a href="contato.html" class="footer__link">Contato</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://twitter.com" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com" target="_blank" class="footer__social">
+                            <i class="uil uil-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169;ENVIRONMENT. Todos os direitos reservados.</p>
+            </div>
+            </footer>
+
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>

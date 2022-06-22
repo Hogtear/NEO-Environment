@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--==================== ÍCONE ====================-->
+        <link rel="icon" href="assets/img/logos/upload.svg">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/stylesupload.css">
+
+        <!--==================== EMOJIS ====================-->
+        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+
+        <!--==================== FONTE ====================-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+        <title>Upload de Imagem</title>
+    </head>
+    <body>
+        <!--==================== CABEÇALHO ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">ENVIRONMENT</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i> Início
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="contato.html" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contato
+                            </a>
+                        </li>
+                        <div class="nav__item">
+                            <a href="login.html" class="nav__link">
+                                <i class="uil uil-user-square nav__icon"></i> Perfil
+                            </a>
+                        </div>
+
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+
+                    <!-- Botão do Modo escuro -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== CLASSE MAIN ====================-->
+        <main class="main">
+            <!--==================== INÍCIO ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                            <a href="" target="_blank" class="home__social-icon">
+                                <i class="uil uil-youtube"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <img src="assets/img/logos/enviro_logo.png">
+                        </div>
+
+                        <div class="home__data">
+                            <h2 class="home__title">ENVIRONMENT</h2>
+                            <h4 class="home__subtitle">Cálculo de Danos Florestais</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== UPLOAD ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">UPLOAD DE IMAGEM</h2>
+                <span class="section__subtitle">Faça o upload de uma imagem <br> e será realizado o cálculo</span>
+
+                <div class="upload__container container">
+
+                    <div class="upload__data">
+
+                        <div class="form__bg">
+                            <div class="form-input">
+                                <form action="#" method="POST">
+                                    <input class="file-input" type="file" name="file" hidden multiple accept="image/jpeg,.jpg,.jpeg,image/png,.png" required>
+                                    <i class="uil uil-cloud-upload button__icon button__file"></i>
+                                    <p class="file__title">Escolha um arquivo</p>
+                                </form>
+                                <section class="progress-area"></section>
+                                <section class="uploaded-area"></section>
+                            </div>
+                            <button class="btn btn-primary button button--white button--map" id="submit">Calcular
+                                <i class="uil uil-calculator button__icon"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        <!--==================== RODAPÉ ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">ENVIRO.</h1>
+                        <span class="footer__subtitle">Cálculo de Danos Florestais</span>
+                    </div>
+
+                    <ul class="footer__links" style="visibility: hidden;">
+                        <li>
+                            <a href="#services" class="footer__link">Utilidades</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfólio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contato</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials" style="visibility: hidden;">
+                        <a href="https://twitter.com" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com" target="_blank" class="footer__social">
+                            <i class="uil uil-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169;ENVIRONMENT. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
